@@ -1,0 +1,10 @@
+alter session set "_ORACLE_SCRIPT"=true;
+
+
+create user oxana identified by oxa123;
+GRANT CONNECT TO oxana;
+GRANT CREATE SESSION TO oxana;
+GRANT UNLIMITED TABLESPACE TO oxana;
+GRANT CREATE TABLE TO oxana;
+GRANT CREATE PROCEDURE TO oxana;
+GRANT CREATE TRIGGER TO oxana;
